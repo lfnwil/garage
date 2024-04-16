@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie</title>
+    <link rel="stylesheet" href="galerie.css">
+    <script src="galerie.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="head-dropdown">
+            <div class="box">
+                <div class="dropdown"><h3>MENU</h3>
+                    <span class="left-icon"></span>
+                    <span class="right-icon"></span>
+                    <div class="items">
+                        <a href="acceuil.html" style="--i:1;"><span></span>Accueil</a>
+                        <a href="a_propos.html" style="--i:2;"><span></span>À Propos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="head-logo">
+            <div class="logo"><img src="img/YWC.png" alt=""></div>
+        </div>
+    </header>
+
+
+    <div class="container" id="container1">
+        
+        <div class="voiture">
+            <div class="photo" onmouseover="showImage(this)" onmouseout="hideImage(this)" onclick="toggleTextVisibility('textDiv1')">
+                <div class="text" id="textDiv1">
+                    <h2>La Ferrari 458, lancée en 2009, est une voiture de sport emblématique de Ferrari. Avec son design captivant, son moteur V8 puissant et son habitacle luxueux, elle incarne l'alliance parfaite entre élégance et performances. Une véritable icône de l'ingénierie automobile.</h2>
+                </div>
+                <img src="img/458 1.jpg" alt="Image 1" class="hover-image">
+                <img src="img/458 2µ.jpg" alt="Image 2" class="hidden hover-image">
+            </div>
+            <div class="texte"><h1>FERRARI 458</h1></div>  
+        </div>
+        
+        <div class="voiture">
+            <div class="photo" onmouseover="showImage(this)" onmouseout="hideImage(this)" onclick="toggleTextVisibility('textDiv2')">
+                <div class="text" id="textDiv2">
+                    <h2>La Ford Mustang GT 2018 est une légende parmi les voitures de sport américaines. Dotée d'un design emblématique, elle est propulsée par un moteur V8 offrant des performances puissantes. Son style agressif, son habitacle sportif et son héritage historique font de la Mustang GT 2018 une icône de la route.</h2>
+                </div>
+                <img src="img/mustang 1.jpg" alt="Image 3" class="hover-image">
+                <img src="img/mustang 2.jpg" alt="Image 4" class="hidden hover-image">
+            </div>
+            <div class="texte"><h1>MUSTANG GT</h1></div>  
+        </div>
+        
+        <div class="voiture">
+            <div class="photo" onmouseover="showImage(this)" onmouseout="hideImage(this)" onclick="toggleTextVisibility('textDiv3')">
+                <div class="text" id="textDiv3">
+                    <h2>La Ferrari 812 Superfast, lancée en 2017, allie élégance et puissance. Avec son design dynamique et son moteur V12 surpuissant, elle incarne le summum de la performance italienne. Luxueuse à l'intérieur, audacieuse à l'extérieur, la 812 Superfast est une icône contemporaine de l'ingénierie automobile.</h2>
+                </div>
+                <img src="img/812 1.jpg" alt="Image 5" class="hover-image">
+                <img src="img/812 2.jpg" alt="Image 6" class="hidden hover-image">
+            </div>
+            <div class="texte"><h1>FERRARI 812</h1></div>  
+        </div>
+    </div>
+
+
+    <div class="container" id="container2">
+
+        <div class="voiture">
+            <div class="photo" onmouseover="showImage(this)" onmouseout="hideImage(this)" onclick="toggleTextVisibility('textDiv4')">
+                <div class="text" id="textDiv4">
+                    <h2>L'Audi RS3, une force parmi les compactes sportives, marie élégance et performance. Dotée d'un design dynamique, elle est propulsée par un moteur puissant, offrant une expérience de conduite exaltante. Son habitacle allie confort et sophistication, faisant de l'Audi RS3 une référence dans le monde des voitures sportives compactes. Une fusion parfaite entre style, agilité et puissance.</h2>
+                </div>
+                <img src="img/audi 1.jpg" alt="Image 7" class="hover-image">
+                <img src="img/audi 2.jpg" alt="Image 8" class="hidden hover-image">
+            </div>
+            <div class="texte"><h1>AUDI RS3</h1></div>  
+        </div>
+
+        <div class="voiture">
+            <div class="photo" onmouseover="showImage(this)" onmouseout="hideImage(this)" onclick="toggleTextVisibility('textDiv5')">
+                <div class="text" id="textDiv5">
+                    <h2>La Porsche 718 Spyder incarne l'essence même du plaisir de conduire. Arborant un design emblématique, elle est animée par un moteur performant qui délivre une expérience de conduite captivante. L'intérieur raffiné offre un confort exceptionnel, faisant de la 718 Spyder une synthèse parfaite entre élégance et performances. Une véritable déclaration de la passion automobile signée Porsche.</h2>
+                </div>
+                <img src="img/porsche 2.jpg" alt="Image 9" class="hover-image">
+                <img src="img/porsche 1.jpg" alt="Image 10" class="hidden hover-image">
+            </div>
+            <div class="texte"><h1>PORSCHE 718 BOXSTER</h1></div>  
+        </div>
+
+        <div class="voiture">
+            <div class="photo" onmouseover="showImage(this)" onmouseout="hideImage(this)" onclick="toggleTextVisibility('textDiv6')">
+                <div class="text" id="textDiv6">
+                    <h2>La BMW E36, une légende parmi les voitures sportives, allie style intemporel et sensations de conduite dynamiques. Dotée d'un design classique, elle offre une expérience de conduite agile propulsée par des motorisations emblématiques. L'intérieur harmonieux et fonctionnel fait de la BMW E36 un choix intemporel pour les passionnés de conduite et de design automobile. Une icône qui perdure avec élégance.</h2>
+                </div>
+                <img src="img/E36 1.jpg" alt="Image 11" class="hover-image">
+                <img src="img/E 36 2.jpg" alt="Image 12" class="hidden hover-image">
+            </div>
+            <div class="texte"><h1>BMW E36</h1></div>  
+        </div>
+    </div>
+
+    <div class="container" id="container3" >
+        <div class="voiture">
+            <div class="photo" onmouseover="showImage(this)" onmouseout="hideImage(this)" onclick="toggleTextVisibility('textDiv7')">
+                <div class="text" id="textDiv7">
+                    <h2>Le Lamborghini Urus, un SUV de luxe aux allures de supercar, fusionne avec brio élégance et puissance. Arborant le design audacieux caractéristique de Lamborghini, il est propulsé par un moteur V8 suralimenté, offrant des performances exceptionnelles. L'intérieur raffiné, alliant luxe et technologie, fait du Lamborghini Urus un symbole de sophistication dans le monde des SUV sportifs. Une combinaison parfaite entre opulence et dynamisme.</h2>
+                </div>
+                    <img src="img/urus 1.jpg" alt="Image 13" class="hover-image">
+                    <img src="img/urus 2.jpg" alt="Image 14" class="hidden hover-image">
+            </div>
+                <div class="texte"><h1>Lamborghini Urus</h1></div>
+        </div>  
+        
+        <div class="voiture">
+            <div class="photo" onmouseover="showImage(this)" onmouseout="hideImage(this)" onclick="toggleTextVisibility('textDiv8')">
+                <div class="text" id="textDiv8">
+                    <h2>Le G63 Brabus incarne le summum du luxe et de la performance dans l'univers des SUV. Avec son design imposant et ses caractéristiques personnalisées par Brabus, il se démarque comme un véritable monstre de puissance. Propulsé par un moteur V8 biturbo, le G63 Brabus offre des performances hors normes. L'intérieur opulent et les améliorations exclusives font de ce véhicule une fusion parfaite entre élégance et brutalité, créant ainsi une expérience de conduite extraordinaire. Une expression audacieuse du raffinement automobile.</h2>
+                </div>
+                <img src="img/BRABUS 1.jpg" alt="Image 15" class="hover-image">
+                <img src="img/BRABUS 2.jpg" alt="Image 16" class="hidden hover-image">
+            </div>
+            <div class="texte"><h1>G63 Brabus</h1></div>  
+        </div>
+
+        <div class="voiture">
+            <div class="photo" onmouseover="showImage(this)" onmouseout="hideImage(this)" onclick="toggleTextVisibility('textDiv9')">
+                <div class="text" id="textDiv9">
+                    <h2>La Porsche 911 Carrera S, une icône intemporelle, allie le charme classique à une performance de pointe. Avec son design distinctif, elle est propulsée par un moteur flat-six, délivrant une expérience de conduite légendaire. L'intérieur raffiné, combinant sportivité et confort, fait de la 911 Carrera S une référence dans le monde des voitures de sport. Une fusion élégante de design emblématique et de performances exceptionnelles, faisant honneur à l'héritage Porsche.</h2>
+                </div>
+                <img src="img/911 1.jpg" alt="Image 17" class="hover-image">
+                <img src="img/911 2.jpg" alt="Image 18" class="hidden hover-image">
+            </div>
+            <div class="texte"><h1>Porsche 911 Carrera S</h1></div>  
+        </div>
+    </div>
+</body>
+</html>

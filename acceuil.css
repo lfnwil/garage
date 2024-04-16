@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0; 
+    transition: opacity 1s ease-in-out;
+    font-family: 'Oswald', sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden; 
+}
+
+.logo {
+    padding-top: 25px; 
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out 0.5s;
+}
+button {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #e8e8e8;
+    z-index: 3;
+    background: black;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    
+    font-size: 18px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(255,255,255,0.27);
+    transition: all 400ms;
+    overflow: hidden;
+    margin-top: 20%;
+    
+   }
+   .button{
+    margin-right: 77%;
+    
+   }
+
+   button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 13px;
+    background-color: #e8e8e8;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 400ms
+   }
+   
+   button:hover {
+    color: black;
+   }
+   
+   button:hover::before {
+    width: 100%;
+   }
+
+
+.concept{
+    color: rgb(255, 255, 255);
+    margin-top: 20%;
+    height: 15%;
+    width: 40%;
+    margin-right: 50%;
+    border-radius: 10px;
+}
+.galeriemenu a{
+    float: left;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.aproposmenu a{
+    float: left;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+

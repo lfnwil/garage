@@ -1,0 +1,88 @@
+
+html{
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+#img{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    
+}
+
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu{
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    
+}
+header h1{
+    padding-top: 10px;
+    display: flex;
+
+}
+
+
+.menu h3,
+.menu h3 a{
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu h3 a:hover{
+    color: gray;
+}
+
+.banniere{
+    display: flex   ;
+}
+
+.image_texte{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    
+    
+}
+
+#imagee{
+    width: 500px;
+    height: 300px;
+}
+
+.text{
+    text-align: center;
+    font-size: 30px;
+}
+.superposer{
+    position:relative; 
+    height:400px
+}
+
+.image_superposer{
+    position:absolute;
+    z-index: 1;
+}
+
+.text_superposer{
+    position:absolute;
+    z-index:2;
+    
+}
